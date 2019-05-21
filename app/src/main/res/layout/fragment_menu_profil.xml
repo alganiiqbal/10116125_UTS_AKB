@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   android:gravity="center"
+    tools:context=".MenuProfil">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+        <LinearLayout
+            android:id="@+id/line1"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical"
+            android:layout_width="310dp"
+            android:layout_height="70dp"
+            android:background="@drawable/ic_nim"
+            >
+            <TextView
+                android:layout_marginTop="5dp"
+                android:textSize="20dp"
+                android:layout_marginLeft="80dp"
+                android:layout_width="90dp"
+                android:layout_height="25dp"
+                android:text="NIM"
+                />
+            <TextView
+                android:textSize="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="80dp"
+                android:layout_width="90dp"
+                android:layout_height="20dp"
+                android:text="10116125"
+                />
+
+
+        </LinearLayout>
+    <LinearLayout
+        android:id="@+id/line2"
+        android:layout_below="@+id/line1"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical"
+        android:layout_width="310dp"
+        android:layout_height="70dp"
+        android:background="@drawable/ic_nama"
+        >
+        <TextView
+            android:layout_marginTop="5dp"
+            android:textSize="20dp"
+            android:layout_marginLeft="80dp"
+            android:layout_width="90dp"
+            android:layout_height="25dp"
+            android:text="NAMA"
+            />
+        <TextView
+            android:textSize="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="80dp"
+            android:layout_width="200dp"
+            android:layout_height="20dp"
+            android:text="AL GHANI IQBAL DZULFIQAR"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_below="@+id/line2"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical"
+        android:layout_width="310dp"
+        android:layout_height="70dp"
+        android:background="@drawable/ic_kelas"
+        >
+        <TextView
+            android:layout_marginTop="5dp"
+            android:textSize="20dp"
+            android:layout_marginLeft="80dp"
+            android:layout_width="90dp"
+            android:layout_height="25dp"
+            android:text="KELAS"
+            />
+        <TextView
+            android:textSize="15dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="80dp"
+            android:layout_width="220dp"
+            android:layout_height="20dp"
+            android:text="Aplikasi Komputasi Bergerak - 3 "
+            />
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

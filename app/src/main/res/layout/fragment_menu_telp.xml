@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MenuProfil">
+
+
+<!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:id="@+id/line1"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical"
+        android:layout_width="310dp"
+        android:layout_height="70dp"
+        android:background="@drawable/ic_phone1"
+        >
+        <TextView
+            android:layout_marginTop="5dp"
+            android:textSize="20dp"
+            android:layout_marginLeft="80dp"
+            android:layout_width="90dp"
+            android:layout_height="25dp"
+            android:text="NUMBER 1"
+            />
+        <TextView
+            android:id="@+id/txt_number1"
+            android:textSize="15dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="80dp"
+            android:layout_width="220dp"
+            android:layout_height="20dp"
+            android:text="082242609620"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/line2"
+        android:layout_below="@+id/line1"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical"
+        android:layout_width="310dp"
+        android:layout_height="70dp"
+        android:background="@drawable/ic_phone2"
+        >
+        <TextView
+            android:layout_marginTop="5dp"
+            android:textSize="20dp"
+            android:layout_marginLeft="80dp"
+            android:layout_width="90dp"
+            android:layout_height="25dp"
+            android:text="NUMBER 2"
+            />
+        <TextView
+            android:textSize="15dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="80dp"
+            android:layout_width="220dp"
+            android:layout_height="20dp"
+            android:text="089223124523"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_below="@+id/line2"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        android:layout_width="310dp"
+        android:layout_height="70dp"
+
+        >
+        <Button
+            android:id="@+id/btn_call1"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:background="@drawable/ic_call1"
+
+        />
+        <Button
+            android:id="@+id/btn_call2"
+            android:layout_marginLeft="50dp"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:background="@drawable/ic_call2"
+            />
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>
