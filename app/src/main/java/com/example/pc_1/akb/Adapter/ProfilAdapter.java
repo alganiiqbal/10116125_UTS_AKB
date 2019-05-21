@@ -1,5 +1,10 @@
 package com.example.pc_1.akb.Adapter;
-
+/**
+ 21/05/2019
+ 10116125
+ Al Ghani Iqbal Dzulfiqar
+ AKB -3
+ **/
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;

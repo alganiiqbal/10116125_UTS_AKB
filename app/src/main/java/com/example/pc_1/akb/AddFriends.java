@@ -1,5 +1,10 @@
 package com.example.pc_1.akb;
-
+/**
+ 21/05/2019
+ 10116125
+ Al Ghani Iqbal Dzulfiqar
+ AKB -3
+ **/
 
 import android.content.Intent;
 import android.os.Bundle;

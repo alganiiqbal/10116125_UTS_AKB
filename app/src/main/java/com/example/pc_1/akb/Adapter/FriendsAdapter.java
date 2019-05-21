@@ -1,5 +1,10 @@
 package com.example.pc_1.akb.Adapter;
-
+/**
+ 21/05/2019
+ 10116125
+ Al Ghani Iqbal Dzulfiqar
+ AKB -3
+ **/
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
